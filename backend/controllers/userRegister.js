@@ -16,9 +16,8 @@ console.log("req", req.body);
           lastname: lastname,
           email: email,
           password:password
-        }); 
-      const data = await response[0];
-      return res.json(data); 
+        })
+      .then(user=> res.json(user[0])) 
 		} catch (error) {
 			res.status(500).json("error getting user or user already exsist");
 		}
