@@ -1,0 +1,13 @@
+.side-btn {
+	background-color: transparent;
+	/* border: transparent; */
+	margin: 1em;
+	padding: 0.5em;
+	font-weight: 600;
+	border: transparent;
+	cursor: pointer;
+}
+
+.side-btn:hover {
+	color: hsl(0, 0%, 67%);
+}

@@ -1,0 +1,35 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.header-box1 {
+	display: flex;
+	align-items: center;
+	margin-left: 2em;
+}
+.header-box1 p {
+	background-color: hsla(0, 0%, 50%, 0.452);
+	padding: 0.5em 1em;
+}
+.header-box1-btn-wrapper {
+	margin: 0 2em;
+}
+.header-box1-btn {
+	border-radius: 100%;
+	padding: 0 1em;
+	margin: 0 0.3em;
+	background-color: hsla(0, 0%, 50%, 0.452);
+	border: transparent;
+	cursor: pointer;
+}
+.header-box1-btn:hover {
+	background-color: hsl(0, 0%, 0%);
+	color: hsl(0, 0%, 80%);
+}
+.header-box2 {
+	margin-right: 2em;
+	display: flex;
+}

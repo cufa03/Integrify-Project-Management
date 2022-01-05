@@ -1,4 +1,20 @@
-.App {
-  text-align: center;
+.app {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;
 }
 
+.box1 {
+}
+.main-header {
+	height: 10rem;
+}
+.main-page {
+	height: 30rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box2 {
+}
