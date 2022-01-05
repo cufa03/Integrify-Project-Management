@@ -10,7 +10,6 @@ console.log("req", req.body);
 		try {
 			const response = await db("users")
         .returning("*")
-        .whereNot({email})
 				.insert({
           firstname: firstname,
           lastname: lastname,
