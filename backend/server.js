@@ -4,6 +4,7 @@ const cors = require("cors");
 const knex = require("knex");
 const { userRegisterHandler } = require("./controllers/userRegister");
 const { userSignInHandler } = require("./controllers/userSignin");
+const { userProjectHandler } = require("./controllers/userProject");
 const app = express();
 
 const db = knex({
@@ -20,6 +21,9 @@ app.use(bodyParser.json());
 app.use(cors());
 app.post("/app/v1/user/register", (req, res) => {
   userRegisterHandler(req, res, db)
+});
+app.post("/app/v1/user/project", (req, res) => {
+	userProjectHandler(req, res, db);
 });
 app.get("/app/v1/user/signin", (req, res) => {
   userSignInHandler(req, res, db)
