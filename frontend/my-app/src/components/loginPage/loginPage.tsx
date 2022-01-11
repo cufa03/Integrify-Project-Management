@@ -1,6 +1,6 @@
 import CustomBtn from '../custom-button/CustomBtn';
 import './styles.css';
-const mainPage = () => {
+const LoginPage = () => {
 	return (
 		<div>
 			<div className="login-wrapper">
@@ -8,9 +8,11 @@ const mainPage = () => {
 				<p className="mid-line"></p>
 				<CustomBtn text="REGISTER" />
 			</div>
-			<div></div>
+			<div className="add-project-wrapper">
+				<CustomBtn text="+ADD PROJECT LIST" />
+			</div>
 		</div>
 	);
 };
 
-export default mainPage;
+export default LoginPage;
