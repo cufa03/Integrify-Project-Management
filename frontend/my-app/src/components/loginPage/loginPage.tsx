@@ -8,9 +8,6 @@ const LoginPage = () => {
 				<p className="mid-line"></p>
 				<CustomBtn text="REGISTER" />
 			</div>
-			<div className="add-project-wrapper">
-				<CustomBtn text="+ADD PROJECT LIST" />
-			</div>
 		</div>
 	);
 };

@@ -4,6 +4,7 @@ import MainHeader from './components/main-header/MainHeader';
 import SideBar from './components/side-bar/SideBar';
 import LoginPage from './components/loginPage/loginPage';
 import { Route, Switch } from 'react-router-dom';
+import ProjectPage from './components/projectPage/ProjectPage';
 function App() {
 	return (
 		<div className="app">
@@ -17,6 +18,9 @@ function App() {
 							<Grid item xs={12} className="login-page">
 								<LoginPage />
 							</Grid>
+						</Route>
+						<Route exact path="/project">
+							<ProjectPage />
 						</Route>
 					</Grid>
 					<Grid className="box2" item xs={3} sm={2}>
