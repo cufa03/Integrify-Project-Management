@@ -29,11 +29,20 @@
 .green {
 	background-color: hsl(120, 92%, 39%);
 }
+.green:hover {
+	background-color: hsla(120, 100%, 38%, 0.534);
+}
 .yellow {
-	background-color: rgb(241, 241, 2);
+	background-color: rgb(255, 255, 0);
+}
+.yellow:hover {
+	background-color: rgb(211, 211, 0);
 }
 .red {
 	background-color: hsla(0, 100%, 50%, 0.863);
+}
+.red:hover {
+	background-color: hsla(0, 100%, 50%, 0.445);
 }
 
 .add-card-button {
