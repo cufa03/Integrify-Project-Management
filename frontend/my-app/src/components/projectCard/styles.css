@@ -1,0 +1,17 @@
+.card {
+	height: fit-content;
+	min-height: 2.5em;
+}
+
+.card-header {
+	background-color: hsl(120, 92%, 39%);
+	color: hsl(0, 0%, 100%);
+	height: min-content;
+	padding: 0.7em;
+}
+.card-body {
+	background-color: hsla(0, 1%, 64%, 0.603);
+}
+.card-body-element {
+	padding: 0.3em 0;
+}

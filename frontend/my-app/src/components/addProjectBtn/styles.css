@@ -1,3 +1,5 @@
 .add-project-wrapper {
-	border: 1px solid rgb(199, 199, 199);
+	/* border: 1px solid rgb(199, 199, 199); */
+	height: min-content;
+	box-shadow: 2px 3px 10px hsla(118, 28%, 63%, 0.664);
 }
